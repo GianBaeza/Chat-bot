@@ -16,10 +16,13 @@ body {
   border-radius: 20px;
   margin: auto;
   margin-top: 100px;
+  -webkit-box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.91);
+  -moz-box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.91);
+  box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.91);
 }
 
 header {
-  background-color: #0A3B73;
+  background-color: #0a3b73;
   height: 50px;
 }
 header h2 {
@@ -44,7 +47,7 @@ header h2 {
 }
 
 .chatbox .chat p {
-  background-color: #0A3B73;
+  background-color: #0a3b73;
   padding: 12px 16px;
   border-radius: 10px 10px 0 10px;
   font-size: 0.95 rem;
@@ -52,7 +55,7 @@ header h2 {
   color: #ffffff;
 }
 .chatbox .incoming img {
-  background-color:#0a3b73;
+  background-color: #0a3b73;
   height: 32px;
   width: 32px;
   border-radius: 5px;
@@ -69,7 +72,7 @@ header h2 {
   margin: 25px 0;
 }
 .chat-itput {
-  border-top: 1px solid #FEC503;
+  border-top: 1px solid #fec503;
   padding: 5px 20px;
   background-color: rgb(255, 255, 255);
   display: flex;

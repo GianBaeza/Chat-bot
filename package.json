@@ -1,5 +1,10 @@
 {
   "dependencies": {
+    "@google/generative-ai": "^0.13.0",
     "feather-icons": "^4.29.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
   }
 }
