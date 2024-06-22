@@ -2,7 +2,7 @@ const textarea = document.querySelector(".chat-itput textarea");
 const iconsSend = document.querySelector(".iconsend");
 const sendMessage = document.querySelector("#send-btn");
 const chatBox = document.querySelector(".chatbox");
-const API_KEY = "sk-proj-BOax6AAwsJWuRPuYl00pT3BlbkFJR20XqH0nbINyjjwJl9rG";
+const API_KEY = process.env.OPENAI_API_KEY;
 const API_URL = "https://api.openai.com/v1/chat/completions";
 
 document.addEventListener("DOMContentLoaded", () => {
